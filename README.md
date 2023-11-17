@@ -1,37 +1,12 @@
-# Proyecto de Pronóstico de Estancia Hospitalaria
-## Autor: Miguel Guerrero
+# Proyecto de Título: Infiriendo el Pronóstico de Estadía Hospitalaria utilizando técnicas de Machine Learning
+## Autores: Miguel Guerrero Ruiz y Bastián Sepúlveda Silva
 
 # Descripción del Proyecto
-Este repositorio contiene un proyecto detallado enfocado en el pronóstico de la duración de la estancia hospitalaria de los pacientes. Utilizando un conjunto de datos de hospital, el proyecto aborda la preparación de datos, el análisis exploratorio, y la implementación de modelos de machine learning para predecir la duración de las estancias hospitalarias.
+Este repositorio contiene un proyecto detallado enfocado en la creación de un modelo predictivo de datos para ayudar en el pronóstico de la estadía hospitalaria de los pacientes de un hospital. Utilizando un conjunto de datos anónimos con registros históricos de un hospital que datan desde el año 2017 al 2021, el proyecto aborda el análisis exploratorio, el preprocesamiento de los datos y la implementación de modelos de machine learning para predecir la duración de las estancias hospitalarias.
 
 # Estructura del Repositorio
-El proyecto se divide en tres etapas principales, cada una documentada en un notebook:
+El proyecto se divide en tres etapas principales, cada una documentada a través de un notebook:
 
-1. **Análisis Exploratorio de Datos (EDA)**: Exploración inicial de los datos, incluyendo la visualización y el análisis estadístico para entender mejor las características de los datos de hospital.
-2. **Preprocesamiento de Variables**: Procesamiento y limpieza de datos, incluyendo la transformación de variables y la gestión de valores faltantes, para preparar los datos para el modelado.
-3. **Entrenamiento y Evaluación del Modelo**: Desarrollo y evaluación de modelos predictivos, aplicando diversas técnicas de machine learning para estimar la duración de la estancia hospitalaria.
-
-# Resultados Clave
-El proyecto logra:
-
-- Un entendimiento profundo de los factores que influyen en la duración de las estancias hospitalarias.
-- La implementación de modelos predictivos eficaces con métricas de evaluación detalladas.
-- Recomendaciones basadas en los resultados del análisis para mejorar la gestión hospitalaria.
-
-# Especificaciones del Entorno de Desarrollo
-Para replicar los resultados, se recomienda utilizar el siguiente entorno:
-
-- Python 3.10.6
-- pandas 2.0.3
-- Sklearn (versión específica si es relevante)
-- Otras librerías relevantes (especificar versiones)
-
-# Cómo Contribuir
-Las contribuciones para mejorar los modelos, el análisis de datos, o cualquier otro aspecto del proyecto son bienvenidas. Para contribuir, por favor, siga las pautas de contribución comunes en proyectos de GitHub.
-
-# Contacto
-Para consultas o sugerencias relacionadas con este proyecto, por favor, contácteme a través de [insertar método de contacto].
-
----
-
-Este proyecto representa un esfuerzo en el ámbito de la salud y la ciencia de datos, buscando mejorar la comprensión y la gestión de las estancias hospitalarias a través del análisis de datos y el modelado predictivo.
+1. **Análisis Exploratorio de Datos (EDA)**: Exploración inicial de los datos, incluyendo la visualización y el análisis estadístico para entender mejor las características de los datos con los que se trabajará
+2. **Preprocesamiento de Variables**: Procesamiento y limpieza de datos, incluyendo la transformación de variables, la gestión de valores faltantes y la creación de características nuevas, para preparar los datos para el entrenamiento de los modelos.
+3. **Entrenamiento y Evaluación del Modelo**: Entrenamiento y evaluación de modelos predictivos, aplicando diversas técnicas de machine learning para estimar la duración de la estancia hospitalaria y buscar aquel modelo que arroje los mejores resultados.
